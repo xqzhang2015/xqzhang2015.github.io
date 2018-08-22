@@ -133,6 +133,78 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>MIT：算法导论——1.算法分析——插入排序 vs 二路归并排序</title>
+      <link>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter01_sort/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter01_sort/</guid>
+      <description>Todo.</description>
+    </item>
+    
+    <item>
+      <title>MIT：算法导论——10.平衡搜索树-红黑树</title>
+      <link>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter10_rbtree/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter10_rbtree/</guid>
+      <description>Todo.</description>
+    </item>
+    
+    <item>
+      <title>MIT：算法导论——15.动态规划</title>
+      <link>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter15_dynamic_schedule/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter15_dynamic_schedule/</guid>
+      <description>Todo.</description>
+    </item>
+    
+    <item>
+      <title>MIT：算法导论——2.渐近符号、递归及解法_和连续子数组的最大和、主方法/主定理求时间复杂度</title>
+      <link>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter02_analysis/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter02_analysis/</guid>
+      <description>Todo.</description>
+    </item>
+    
+    <item>
+      <title>MIT：算法导论——3.分治法实例_二分查找 和求a^b</title>
+      <link>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter03_divide/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter03_divide/</guid>
+      <description>Todo.</description>
+    </item>
+    
+    <item>
+      <title>MIT：算法导论——7.1.基本数据结构_栈、队列、链表、有根树</title>
+      <link>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter07_basic_structure/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter07_basic_structure/</guid>
+      <description>Todo.</description>
+    </item>
+    
+    <item>
+      <title>MIT：算法导论——7.2.二叉树</title>
+      <link>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter07_2_binary_tree/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter07_2_binary_tree/</guid>
+      <description>Todo.</description>
+    </item>
+    
+    <item>
+      <title>MIT：算法导论——9.二叉搜索树</title>
+      <link>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter09_search_tree/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter09_search_tree/</guid>
+      <description>Todo.</description>
+    </item>
+    
+    <item>
       <title>(Hu)go Template Primer</title>
       <link>https://xqzhang2015.github.io/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
@@ -165,30 +237,6 @@ Follow the following steps:
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 1 2 3  ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png   should become
 1 2 3 4  ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png   Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>https://xqzhang2015.github.io/post/syntax-highlighting/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
-      
-      <guid>https://xqzhang2015.github.io/post/syntax-highlighting/</guid>
-      <description>&lt;p&gt;More detail: &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting/&#34;&gt;Syntax Highlighting | Hugo&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;helloWorld&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-  &lt;span class=&#34;nx&#34;&gt;alert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
