@@ -118,6 +118,35 @@ A tip disclaimer
 &lt;/div&gt;
 
 
+&lt;h3 id=&#34;tip-1th&#34;&gt;tip-1th&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;I am a test code, 1th.&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;tip-2th&#34;&gt;tip-2th&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shortcode&#34; data-lang=&#34;shortcode&#34;&gt;I am a test code, 2th.&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;shortcode-notice warning&#34;&gt;
+  &lt;div class=&#34;shortcode-notice-title warning&#34;&gt;
+    
+      warning
+    
+  &lt;/div&gt;
+  &lt;p&gt;I am a warning test, 2th&lt;/p&gt;
+
+&lt;/div&gt;
+
+
 &lt;h2 id=&#34;info&#34;&gt;info&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
