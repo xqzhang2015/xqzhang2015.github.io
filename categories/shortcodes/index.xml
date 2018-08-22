@@ -6,10 +6,19 @@
     <description>Recent content in Shortcodes on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 06 Mar 2018 16:01:23 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 20 Aug 2018 01:17:14 +0000</lastBuildDate>
     
 	<atom:link href="https://xqzhang2015.github.io/categories/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shortcodes Notice Preview</title>
+      <link>https://xqzhang2015.github.io/post/shortcode-notice/</link>
+      <pubDate>Mon, 20 Aug 2018 01:17:14 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/post/shortcode-notice/</guid>
+      <description>normal use Note example: 1 2 3 {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : 1 2 3 {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip 1 2 3 {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info 1 2 3 {{%</description>
+    </item>
     
     <item>
       <title>Jane Theme Preview</title>

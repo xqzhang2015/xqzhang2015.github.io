@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Structure and Algorithm on Jane - A super concise theme for Hugo</title>
+    <link>https://xqzhang2015.github.io/categories/data-structure-and-algorithm/</link>
+    <description>Recent content in Data Structure and Algorithm on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 20 Aug 2018 01:17:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://xqzhang2015.github.io/categories/data-structure-and-algorithm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shortcodes Notice Preview</title>
+      <link>https://xqzhang2015.github.io/post/shortcode-notice/</link>
+      <pubDate>Mon, 20 Aug 2018 01:17:14 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/post/shortcode-notice/</guid>
+      <description>normal use Note example: 1 2 3 {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : 1 2 3 {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip 1 2 3 {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info 1 2 3 {{%</description>
+    </item>
+    
+  </channel>
+</rss>
