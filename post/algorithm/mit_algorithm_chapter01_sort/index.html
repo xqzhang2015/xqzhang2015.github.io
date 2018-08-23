@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>MIT Algorithm - 1.算法分析——插入排序 vs 二路归并排序 - To be foolish - xqzhang2015</title>
+  <title>MIT Algorithm - 1.算法分析: 插入排序 vs 二路归并排序 - To be foolish - xqzhang2015</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -25,7 +25,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="xqzhang2015" />
-  <meta name="description" content="Todo." />
+  <meta name="description" content="Insertion sort 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56  #include &amp;lt;iostream&amp;gt;#include &amp;lt;vector&amp;gt;#include &amp;lt;string&amp;gt; using namespace std; template &amp;lt;typename T&amp;gt; int insertionSort(T *data, int n) { if (data == NULL || n &amp;lt;= 0) { return -1; } for (int i = 1; i &amp;lt; n; i&#43;&#43;) { T key = data[i]; int j = i - 1; for (; j &amp;gt;= 0 &amp;amp;&amp;amp; data[j] &amp;gt; key; j--) { data[j &#43; 1] = data[j]; } data[j &#43; 1] = key; } return 0; } int main(void) { int data[6] = {5, 3, 1, 9, 7, -1}; insertionSort&amp;lt;int&amp;gt;(data, sizeof(data) / sizeof(*data)); for (uint i = 0; i &amp;lt; sizeof(data) / sizeof(*data); i&#43;&#43;) { cout &amp;lt;&amp;lt; data[i] &amp;lt;&amp;lt; &amp;#34; &amp;#34;; } cout &amp;lt;&amp;lt; endl; std::vector&amp;lt;int&amp;gt; vT; int i; while (cin &amp;gt;&amp;gt; i) { vT." />
 
   <meta name="keywords" content="Hugo, theme" />
 
@@ -57,25 +57,25 @@
 
 
 
-<meta property="og:title" content="MIT Algorithm - 1.算法分析——插入排序 vs 二路归并排序" />
-<meta property="og:description" content="Todo." />
+<meta property="og:title" content="MIT Algorithm - 1.算法分析: 插入排序 vs 二路归并排序" />
+<meta property="og:description" content="Insertion sort 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56  #include &lt;iostream&gt;#include &lt;vector&gt;#include &lt;string&gt; using namespace std; template &lt;typename T&gt; int insertionSort(T *data, int n) { if (data == NULL || n &lt;= 0) { return -1; } for (int i = 1; i &lt; n; i&#43;&#43;) { T key = data[i]; int j = i - 1; for (; j &gt;= 0 &amp;&amp; data[j] &gt; key; j--) { data[j &#43; 1] = data[j]; } data[j &#43; 1] = key; } return 0; } int main(void) { int data[6] = {5, 3, 1, 9, 7, -1}; insertionSort&lt;int&gt;(data, sizeof(data) / sizeof(*data)); for (uint i = 0; i &lt; sizeof(data) / sizeof(*data); i&#43;&#43;) { cout &lt;&lt; data[i] &lt;&lt; &#34; &#34;; } cout &lt;&lt; endl; std::vector&lt;int&gt; vT; int i; while (cin &gt;&gt; i) { vT." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter01_sort/" /><meta property="article:published_time" content="2014-06-03T17:30:06&#43;00:00"/>
 <meta property="article:modified_time" content="2018-08-23T21:59:19&#43;00:00"/>
-<meta itemprop="name" content="MIT Algorithm - 1.算法分析——插入排序 vs 二路归并排序">
-<meta itemprop="description" content="Todo.">
+<meta itemprop="name" content="MIT Algorithm - 1.算法分析: 插入排序 vs 二路归并排序">
+<meta itemprop="description" content="Insertion sort 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56  #include &lt;iostream&gt;#include &lt;vector&gt;#include &lt;string&gt; using namespace std; template &lt;typename T&gt; int insertionSort(T *data, int n) { if (data == NULL || n &lt;= 0) { return -1; } for (int i = 1; i &lt; n; i&#43;&#43;) { T key = data[i]; int j = i - 1; for (; j &gt;= 0 &amp;&amp; data[j] &gt; key; j--) { data[j &#43; 1] = data[j]; } data[j &#43; 1] = key; } return 0; } int main(void) { int data[6] = {5, 3, 1, 9, 7, -1}; insertionSort&lt;int&gt;(data, sizeof(data) / sizeof(*data)); for (uint i = 0; i &lt; sizeof(data) / sizeof(*data); i&#43;&#43;) { cout &lt;&lt; data[i] &lt;&lt; &#34; &#34;; } cout &lt;&lt; endl; std::vector&lt;int&gt; vT; int i; while (cin &gt;&gt; i) { vT.">
 
 
 <meta itemprop="datePublished" content="2014-06-03T17:30:06&#43;00:00" />
 <meta itemprop="dateModified" content="2014-06-03T17:30:06&#43;00:00" />
-<meta itemprop="wordCount" content="1">
+<meta itemprop="wordCount" content="452">
 
 
 
 <meta itemprop="keywords" content="C&#43;&#43;,templates," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="MIT Algorithm - 1.算法分析——插入排序 vs 二路归并排序"/>
-<meta name="twitter:description" content="Todo."/>
+<meta name="twitter:title" content="MIT Algorithm - 1.算法分析: 插入排序 vs 二路归并排序"/>
+<meta name="twitter:description" content="Insertion sort 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56  #include &lt;iostream&gt;#include &lt;vector&gt;#include &lt;string&gt; using namespace std; template &lt;typename T&gt; int insertionSort(T *data, int n) { if (data == NULL || n &lt;= 0) { return -1; } for (int i = 1; i &lt; n; i&#43;&#43;) { T key = data[i]; int j = i - 1; for (; j &gt;= 0 &amp;&amp; data[j] &gt; key; j--) { data[j &#43; 1] = data[j]; } data[j &#43; 1] = key; } return 0; } int main(void) { int data[6] = {5, 3, 1, 9, 7, -1}; insertionSort&lt;int&gt;(data, sizeof(data) / sizeof(*data)); for (uint i = 0; i &lt; sizeof(data) / sizeof(*data); i&#43;&#43;) { cout &lt;&lt; data[i] &lt;&lt; &#34; &#34;; } cout &lt;&lt; endl; std::vector&lt;int&gt; vT; int i; while (cin &gt;&gt; i) { vT."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -367,7 +367,7 @@
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">MIT Algorithm - 1.算法分析——插入排序 vs 二路归并排序</h1>
+      <h1 class="post-title">MIT Algorithm - 1.算法分析: 插入排序 vs 二路归并排序</h1>
       
       <div class="post-meta">
         <span class="post-time"> 2014-06-03 </span>
@@ -377,8 +377,8 @@
             <a href="https://xqzhang2015.github.io/categories/index/"> index </a>
             
           </div>
-        <span class="more-meta"> 约 1 字 </span>
-          <span class="more-meta"> 预计阅读 1 分钟 </span>
+        <span class="more-meta"> 约 452 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
 
         
         
@@ -390,14 +390,263 @@
 <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content">
-    
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#insertion-sort">Insertion sort</a></li>
+<li><a href="#merge-sort">Merge sort</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
   </div>
 </div>
 
     
     <div class="post-content">
-      <p>Todo.</p>
+      
 
+<h3 id="insertion-sort">Insertion sort</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c++" data-lang="c++"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c++" data-lang="c++"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;vector&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;string&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+<span class="kt">int</span> <span class="n">insertionSort</span><span class="p">(</span><span class="n">T</span> <span class="o">*</span><span class="n">data</span><span class="p">,</span> <span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">data</span> <span class="o">==</span> <span class="nb">NULL</span> <span class="o">||</span> <span class="n">n</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+	<span class="p">}</span>
+
+	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="n">T</span> <span class="n">key</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+
+		<span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+		<span class="k">for</span> <span class="p">(;</span> <span class="n">j</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">data</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">key</span><span class="p">;</span> <span class="n">j</span><span class="o">--</span><span class="p">)</span>
+		<span class="p">{</span>
+			<span class="n">data</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">j</span><span class="p">];</span>
+		<span class="p">}</span>
+		<span class="n">data</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">key</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="n">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="kt">int</span> <span class="n">data</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">};</span>
+
+	<span class="n">insertionSort</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="o">/</span> <span class="k">sizeof</span><span class="p">(</span><span class="o">*</span><span class="n">data</span><span class="p">));</span>
+	<span class="k">for</span> <span class="p">(</span><span class="n">uint</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> <span class="o">/</span> <span class="k">sizeof</span><span class="p">(</span><span class="o">*</span><span class="n">data</span><span class="p">);</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">&#34; &#34;</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+
+	<span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">vT</span><span class="p">;</span>
+	<span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+
+	<span class="k">while</span> <span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">i</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="n">vT</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">i</span><span class="p">);</span>
+	<span class="p">}</span>
+	<span class="n">insertionSort</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span><span class="o">&amp;</span><span class="n">vT</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">vT</span><span class="p">.</span><span class="n">size</span><span class="p">());</span>
+	<span class="k">for</span> <span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;::</span><span class="n">iterator</span> <span class="n">it</span> <span class="o">=</span> <span class="n">vT</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span> <span class="n">it</span> <span class="o">!=</span> <span class="n">vT</span><span class="p">.</span><span class="n">end</span><span class="p">();</span> <span class="n">it</span><span class="o">++</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="o">*</span><span class="n">it</span> <span class="o">&lt;&lt;</span> <span class="s">&#34; &#34;</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+
+	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="merge-sort">Merge sort</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c++" data-lang="c++"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c++" data-lang="c++"><span class="c1">// merge sort
+</span><span class="c1"></span><span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+<span class="kt">void</span> <span class="n">copy</span><span class="p">(</span><span class="n">T</span> <span class="o">*</span><span class="n">outData</span><span class="p">,</span> <span class="n">T</span> <span class="o">*</span><span class="n">data</span><span class="p">,</span> <span class="kt">int</span> <span class="n">left</span><span class="p">,</span> <span class="kt">int</span> <span class="n">right</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">left</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">right</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">outData</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+<span class="kt">void</span> <span class="n">merge</span><span class="p">(</span><span class="n">T</span> <span class="o">*</span><span class="n">data</span><span class="p">,</span> <span class="n">T</span> <span class="o">*</span><span class="n">outData</span><span class="p">,</span> <span class="kt">int</span> <span class="n">left</span><span class="p">,</span> <span class="kt">int</span> <span class="n">mid</span><span class="p">,</span> <span class="kt">int</span> <span class="n">right</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="kt">int</span> <span class="n">lLoc</span><span class="p">,</span> <span class="n">rLoc</span><span class="p">,</span> <span class="n">outLoc</span><span class="p">;</span>
+	<span class="n">lLoc</span> <span class="o">=</span> <span class="n">left</span><span class="p">;</span>
+	<span class="n">rLoc</span> <span class="o">=</span> <span class="n">mid</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+	<span class="n">outLoc</span> <span class="o">=</span> <span class="n">left</span><span class="p">;</span>
+
+	<span class="k">while</span><span class="p">(</span><span class="n">lLoc</span> <span class="o">&lt;=</span> <span class="n">mid</span> <span class="o">&amp;&amp;</span> <span class="n">rLoc</span> <span class="o">&lt;=</span> <span class="n">right</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">lLoc</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">data</span><span class="p">[</span><span class="n">rLoc</span><span class="p">])</span> <span class="p">{</span>
+			<span class="n">outData</span><span class="p">[</span><span class="n">outLoc</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">lLoc</span><span class="o">++</span><span class="p">];</span>
+		<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+			<span class="n">outData</span><span class="p">[</span><span class="n">outLoc</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">rLoc</span><span class="o">++</span><span class="p">];</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="k">if</span> <span class="p">(</span><span class="n">lLoc</span> <span class="o">&lt;=</span> <span class="n">mid</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">while</span> <span class="p">(</span><span class="n">lLoc</span> <span class="o">&lt;=</span> <span class="n">mid</span><span class="p">)</span> <span class="p">{</span>
+			<span class="n">outData</span><span class="p">[</span><span class="n">outLoc</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">lLoc</span><span class="p">];</span>
+		<span class="p">}</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">rLoc</span> <span class="o">&lt;=</span> <span class="n">right</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">while</span> <span class="p">(</span><span class="n">rLoc</span> <span class="o">&lt;=</span> <span class="n">right</span><span class="p">)</span> <span class="p">{</span>
+			<span class="n">outData</span><span class="p">[</span><span class="n">outLoc</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">rLoc</span><span class="p">];</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+<span class="kt">void</span> <span class="n">mergeSorti</span><span class="p">(</span><span class="n">T</span> <span class="o">*</span><span class="n">data</span><span class="p">,</span> <span class="kt">int</span> <span class="n">left</span><span class="p">,</span> <span class="kt">int</span> <span class="n">right</span><span class="p">,</span> <span class="n">T</span> <span class="o">*</span><span class="n">outData</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">left</span> <span class="o">&lt;</span> <span class="n">right</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="p">(</span><span class="n">left</span> <span class="o">+</span> <span class="n">right</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+		<span class="n">mergeSorti</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">outData</span><span class="p">);</span>
+		<span class="n">mergeSorti</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">right</span><span class="p">,</span> <span class="n">outData</span><span class="p">);</span>
+		<span class="n">merge</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">outData</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">right</span><span class="p">);</span>
+		<span class="n">copy</span><span class="p">(</span><span class="n">outData</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">T</span><span class="o">&gt;</span>
+<span class="kt">void</span> <span class="n">mergeSort</span><span class="p">(</span><span class="n">T</span> <span class="o">*</span><span class="n">data</span><span class="p">,</span> <span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="n">T</span> <span class="o">*</span><span class="n">outData</span> <span class="o">=</span> <span class="k">new</span> <span class="n">T</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+	<span class="n">mergeSorti</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">outData</span><span class="p">);</span>
+	<span class="k">delete</span> <span class="p">[]</span> <span class="n">outData</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     
