@@ -5142,7 +5142,9 @@ $ vi themes/zafta/layouts/_default/single.html
       
         <description>
 
-&lt;h1 id=&#34;sort-algorithm&#34;&gt;Sort algorithm&lt;/h1&gt;
+&lt;h2 id=&#34;sort-algorithm&#34;&gt;Sort algorithm&lt;/h2&gt;
+
+&lt;p&gt;All kinds of sort algorithms.&lt;/p&gt;
 
 &lt;h3 id=&#34;insertion-sort&#34;&gt;Insertion sort&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
