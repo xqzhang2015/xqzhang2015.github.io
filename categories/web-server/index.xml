@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Server on To be foolish - xqzhang2015</title>
+    <link>https://xqzhang2015.github.io/categories/web-server/</link>
+    <description>Recent content in Web Server on To be foolish - xqzhang2015</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 03 Sep 2018 11:42:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://xqzhang2015.github.io/categories/web-server/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The journal of debug lightty access log not appending</title>
+      <link>https://xqzhang2015.github.io/post/arch/lightty/</link>
+      <pubDate>Mon, 03 Sep 2018 11:42:31 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/post/arch/lightty/</guid>
+      <description>What I learned Why O_APPEND is needed: multiple process write the same file fcntl(fd, F_SETFL, O_NONBLOCK); It will clear all file status flags firstly. UML: user mode linux With it, we could GDB linux system call. CSDN: UML(User Mode Linux) &amp;ndash; built binaries 阿里云: User mode Linux &amp;ndash; self generate SYSTEM call If fcntl() is called, file flags will be cleared and set with the new arg</description>
+    </item>
+    
+  </channel>
+</rss>

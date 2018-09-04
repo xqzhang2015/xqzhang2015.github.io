@@ -21,9 +21,18 @@
     </item>
     
     <item>
+      <title>Arch</title>
+      <link>https://xqzhang2015.github.io/categories/arch/</link>
+      <pubDate>Mon, 03 Sep 2018 11:42:31 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/categories/arch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>C&#43;&#43;</title>
       <link>https://xqzhang2015.github.io/categories/c&#43;&#43;/</link>
-      <pubDate>Sat, 30 Aug 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Sep 2018 11:42:31 +0000</pubDate>
       
       <guid>https://xqzhang2015.github.io/categories/c&#43;&#43;/</guid>
       <description></description>
@@ -75,6 +84,15 @@
     </item>
     
     <item>
+      <title>Linux</title>
+      <link>https://xqzhang2015.github.io/categories/linux/</link>
+      <pubDate>Mon, 03 Sep 2018 11:42:31 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shortcodes</title>
       <link>https://xqzhang2015.github.io/categories/shortcodes/</link>
       <pubDate>Mon, 20 Aug 2018 01:17:14 +0000</pubDate>
@@ -98,6 +116,15 @@
       <pubDate>Wed, 30 Aug 2017 15:43:48 +0800</pubDate>
       
       <guid>https://xqzhang2015.github.io/categories/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Server</title>
+      <link>https://xqzhang2015.github.io/categories/web-server/</link>
+      <pubDate>Mon, 03 Sep 2018 11:42:31 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/categories/web-server/</guid>
       <description></description>
     </item>
     
