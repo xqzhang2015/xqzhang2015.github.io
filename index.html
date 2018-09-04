@@ -374,7 +374,7 @@
           <a href="https://xqzhang2015.github.io/categories/c&#43;&#43;/"> C&#43;&#43; </a>
           
         </div>
-      <span class="more-meta"> 约 1028 字 </span>
+      <span class="more-meta"> 约 1084 字 </span>
       <span class="more-meta"> 预计阅读 3 分钟 </span>
       
       
@@ -384,7 +384,7 @@
   <div class="post-content">
     
     <div class="post-summary">
-      What I learned Why O_APPEND is needed: multiple process write the same file fcntl(fd, F_SETFL, O_NONBLOCK); It will clear all file status flags firstly. UML: user mode linux With it, we could GDB linux system call. CSDN: UML(User Mode Linux) &ndash; built binaries 阿里云: User mode Linux &ndash; self generate SYSTEM call If fcntl() is called, file flags will be cleared and set with the new arg
+      What I learned Why O_APPEND is needed: multiple process write the same file O_APPEND Before each write(2), the file offset is positioned at the end of the file, as if with lseek(2). The modification of the file offset and the write operation are performed as a single atomic step. fcntl(fd, F_SETFL, O_NONBLOCK); It will clear all file status flags firstly. UML: user mode linux With it, we could GDB linux
     </div>
     <div class="read-more">
       <a href="/post/arch/lightty/" class="read-more-link">阅读全文</a>

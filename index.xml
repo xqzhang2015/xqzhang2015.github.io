@@ -47,7 +47,14 @@
 
 &lt;h3 id=&#34;why-o-append-is-needed-multiple-process-write-the-same-file&#34;&gt;Why O_APPEND is needed: multiple process write the same file&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://xqzhang2015.github.io/image/linux_write_same_file.jpg&#34; alt=&#34;This is an image in `static/image` folder.&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;O_APPEND&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Before each write(2), the file offset is positioned at the end of the file, as if with lseek(2).&lt;/li&gt;
+&lt;li&gt;The modification of the file offset and the write operation are performed as a single atomic step.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h3 id=&#34;fcntl-fd-f-setfl-o-nonblock&#34;&gt;fcntl(fd, F_SETFL, O_NONBLOCK);&lt;/h3&gt;
 
@@ -60,6 +67,18 @@
 &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/kaikai_sk/article/details/79614842&#34;&gt;CSDN: UML(User Mode Linux) &amp;ndash; built binaries&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.aliyun.com/jiaocheng/174196.html&#34;&gt;阿里云: User mode Linux &amp;ndash; self generate&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;file-operation-write&#34;&gt;file operation: write&lt;/h2&gt;
+
+&lt;h3 id=&#34;file-system-layout&#34;&gt;file system layout&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://xqzhang2015.github.io/image/linux_file_system.png&#34; alt=&#34;This is an image in `static/image` folder.&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;multiple-process-write-the-same-file&#34;&gt;multiple process write the same file&lt;/h3&gt;
+
+&lt;p&gt;This figure could explain why O_APPEND is needed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://xqzhang2015.github.io/image/linux_write_same_file.jpg&#34; alt=&#34;This is an image in `static/image` folder.&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;system-call&#34;&gt;SYSTEM call&lt;/h2&gt;
 
