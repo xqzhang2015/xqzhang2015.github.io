@@ -18,7 +18,7 @@
       
       <guid>https://xqzhang2015.github.io/post/arch/logrotate/</guid>
       <description>Overview test
-Linux system cronjob  cronjob: hourly, daily, &amp;hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &amp;#34;ALERT exited abnormally with [$EXITVALUE]&amp;#34; fi exit 0   Knowledge crontab knowledge Format By default, nnCron uses the enhanced format.</description>
+Linux system cronjob  cronjob: hourly, daily, &amp;hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &amp;#34;ALERT exited abnormally with [$EXITVALUE]&amp;#34; fi exit 0   Knowledge crontab knowledge Job format By default, nnCron uses the enhanced format.</description>
     </item>
     
   </channel>

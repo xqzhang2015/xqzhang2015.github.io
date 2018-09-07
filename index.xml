@@ -97,7 +97,7 @@
 
 &lt;h3 id=&#34;crontab-knowledge&#34;&gt;crontab knowledge&lt;/h3&gt;
 
-&lt;h5 id=&#34;format&#34;&gt;Format&lt;/h5&gt;
+&lt;h5 id=&#34;job-format&#34;&gt;Job format&lt;/h5&gt;
 
 &lt;p&gt;By default, nnCron uses the enhanced format.&lt;/p&gt;
 
@@ -124,7 +124,7 @@
 +------------ Minute            &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;range: &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;-59&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h5 id=&#34;crontab-commands&#34;&gt;Crontab Commands&lt;/h5&gt;
+&lt;h5 id=&#34;crontab-commands&#34;&gt;Crontab commands&lt;/h5&gt;
 
 &lt;p&gt;export EDITOR=vi ;to specify a editor to open crontab file.&lt;/p&gt;
 
