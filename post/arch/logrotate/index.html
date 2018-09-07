@@ -62,20 +62,20 @@ Linux system cronjob  cronjob: hourly, daily, &amp;hellip;  1 2  [root@xxx run]#
 <meta property="og:description" content="Overview test
 Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &#34;ALERT exited abnormally with [$EXITVALUE]&#34; fi exit 0   Knowledge crontab knowledge Format By default, nnCron uses the enhanced format." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://xqzhang2015.github.io/post/arch/logrotate/" /><meta property="article:published_time" content="2018-09-03T11:42:31&#43;00:00"/>
-<meta property="article:modified_time" content="2018-09-04T11:42:57&#43;00:00"/>
+<meta property="og:url" content="https://xqzhang2015.github.io/post/arch/logrotate/" /><meta property="article:published_time" content="2018-09-06T11:42:31&#43;00:00"/>
+<meta property="article:modified_time" content="2018-09-07T11:42:57&#43;00:00"/>
 <meta itemprop="name" content="The journal of linux logrotate">
 <meta itemprop="description" content="Overview test
 Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &#34;ALERT exited abnormally with [$EXITVALUE]&#34; fi exit 0   Knowledge crontab knowledge Format By default, nnCron uses the enhanced format.">
 
 
-<meta itemprop="datePublished" content="2018-09-03T11:42:31&#43;00:00" />
-<meta itemprop="dateModified" content="2018-09-03T11:42:31&#43;00:00" />
+<meta itemprop="datePublished" content="2018-09-06T11:42:31&#43;00:00" />
+<meta itemprop="dateModified" content="2018-09-06T11:42:31&#43;00:00" />
 <meta itemprop="wordCount" content="554">
 
 
 
-<meta itemprop="keywords" content="C&#43;&#43;," />
+<meta itemprop="keywords" content="arch,linux," />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The journal of linux logrotate"/>
 <meta name="twitter:description" content="Overview test
@@ -374,7 +374,7 @@ Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd 
       <h1 class="post-title">The journal of linux logrotate</h1>
       
       <div class="post-meta">
-        <span class="post-time"> 2018-09-03 </span>
+        <span class="post-time"> 2018-09-06 </span>
         <div class="post-category">
             <a href="https://xqzhang2015.github.io/categories/arch/"> arch </a>
             <a href="https://xqzhang2015.github.io/categories/web-server/"> web server </a>
@@ -623,7 +623,7 @@ Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd 
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2018-09-04</span>
+    <span class="item-content">2018-09-07</span>
   </p>
   
   <p class="copyright-item">
@@ -637,21 +637,17 @@ Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd 
 
     <footer class="post-footer">
       <div class="post-tags">
-          <a href="https://xqzhang2015.github.io/tags/c&#43;&#43;/">C&#43;&#43;</a>
+          <a href="https://xqzhang2015.github.io/tags/arch/">arch</a>
+          <a href="https://xqzhang2015.github.io/tags/linux/">linux</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/arch/lightty/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">The journal of debug lightty access log not appending</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/post/shortcode-notice/">
-            <span class="next-text nav-default">Shortcodes Notice Preview</span>
+          <a class="next" href="/post/arch/lightty/">
+            <span class="next-text nav-default">The journal of debug lightty access log not appending</span>
             <span class="prev-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
