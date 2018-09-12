@@ -77,7 +77,7 @@ powerline/fonts git repo
 
 <meta itemprop="datePublished" content="2018-09-11T11:42:31&#43;00:00" />
 <meta itemprop="dateModified" content="2018-09-11T11:42:31&#43;00:00" />
-<meta itemprop="wordCount" content="265">
+<meta itemprop="wordCount" content="325">
 
 
 
@@ -389,7 +389,7 @@ powerline/fonts git repo
             <a href="https://xqzhang2015.github.io/categories/c&#43;&#43;/"> C&#43;&#43; </a>
             
           </div>
-        <span class="more-meta"> 约 265 字 </span>
+        <span class="more-meta"> 约 325 字 </span>
           <span class="more-meta"> 预计阅读 2 分钟 </span>
 
         
@@ -420,6 +420,11 @@ powerline/fonts git repo
 <li><a href="#via-wget">via wget</a></li>
 <li><a href="#for-non-sudoer-only-change-a-specific-user">For non-sudoer, only change a specific user</a></li>
 <li><a href="#zsh-conf-zshrc">zsh conf: .zshrc</a></li>
+</ul></li>
+<li><a href="#zsh-custom-plugins">Zsh custom plugins</a>
+<ul>
+<li><a href="#zsh-autosuggestions">zsh-autosuggestions</a></li>
+<li><a href="#other-plugins">Other plugins</a></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -595,6 +600,44 @@ ls ~/.oh-my-zsh/themes/
 agnoster.zsh-theme robbyrussell.zsh-theme ...</code></pre></td></tr></table>
 </div>
 </div>
+<h3 id="zsh-custom-plugins">Zsh custom plugins</h3>
+
+<h4 id="zsh-autosuggestions">zsh-autosuggestions</h4>
+
+<p><a href="http://fishshell.com/">Fish</a>-like autosuggestions for zsh. It suggests commands as you type, based on command history.</p>
+
+<ol>
+<li>Clone this repository into $ZSH_CUSTOM/plugins (by default .oh-my-zsh/custom/plugins)</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git clone https://github.com/zsh-users/zsh-autosuggestions <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="p">~/.oh-my-zsh/custom</span><span class="si">}</span>/plugins/zsh-autosuggestions</code></pre></td></tr></table>
+</div>
+</div>
+<ol>
+<li>Add the plugin to the list of plugins for Oh My Zsh to load (inside .zshrc):</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nv">plugins</span><span class="o">=(</span>
+  zsh-autosuggestions
+<span class="o">)</span></code></pre></td></tr></table>
+</div>
+</div>
+<ol>
+<li>Start a new terminal session.</li>
+</ol>
+
+<h4 id="other-plugins">Other plugins</h4>
+
     </div>
 
     
