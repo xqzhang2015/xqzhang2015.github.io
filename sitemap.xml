@@ -185,13 +185,6 @@
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/categories/arch/</loc>
-    <lastmod>2018-09-07T11:42:57+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xqzhang2015.github.io/tags/arch/</loc>
     <lastmod>2018-09-07T11:42:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -199,8 +192,8 @@
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/categories/c&#43;&#43;/</loc>
-    <lastmod>2018-09-12T11:42:57+00:00</lastmod>
+    <loc>https://xqzhang2015.github.io/categories/arch/</loc>
+    <lastmod>2018-09-07T11:42:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -213,6 +206,13 @@
   </url>
   
   <url>
+    <loc>https://xqzhang2015.github.io/categories/c&#43;&#43;/</loc>
+    <lastmod>2018-09-12T11:42:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://xqzhang2015.github.io/categories/</loc>
     <lastmod>2014-08-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -220,14 +220,14 @@
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/categories/development/</loc>
+    <loc>https://xqzhang2015.github.io/tags/development/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/tags/development/</loc>
+    <loc>https://xqzhang2015.github.io/categories/development/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -241,14 +241,14 @@
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/categories/english/</loc>
+    <loc>https://xqzhang2015.github.io/tags/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/tags/english/</loc>
+    <loc>https://xqzhang2015.github.io/categories/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -269,14 +269,14 @@
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/categories/golang/</loc>
+    <loc>https://xqzhang2015.github.io/tags/golang/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/tags/golang/</loc>
+    <loc>https://xqzhang2015.github.io/categories/golang/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -311,15 +311,15 @@
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/categories/linux/</loc>
-    <lastmod>2018-09-12T11:42:57+00:00</lastmod>
+    <loc>https://xqzhang2015.github.io/tags/linux/</loc>
+    <lastmod>2018-09-07T11:42:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/tags/linux/</loc>
-    <lastmod>2018-09-07T11:42:57+00:00</lastmod>
+    <loc>https://xqzhang2015.github.io/categories/linux/</loc>
+    <lastmod>2018-09-12T11:42:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -346,13 +346,6 @@
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/categories/shortcodes/</loc>
-    <lastmod>2018-08-20T01:17:29+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://xqzhang2015.github.io/tags/shortcodes/</loc>
     <lastmod>2018-08-20T01:17:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -360,14 +353,21 @@
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/categories/syntax-highlighting/</loc>
-    <lastmod>2017-08-30T16:01:23+08:00</lastmod>
+    <loc>https://xqzhang2015.github.io/categories/shortcodes/</loc>
+    <lastmod>2018-08-20T01:17:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://xqzhang2015.github.io/tags/syntax-highlighting/</loc>
+    <lastmod>2017-08-30T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://xqzhang2015.github.io/categories/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -444,14 +444,14 @@
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/categories/tool/</loc>
+    <loc>https://xqzhang2015.github.io/tags/tool/</loc>
     <lastmod>2018-09-12T11:42:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://xqzhang2015.github.io/tags/tool/</loc>
+    <loc>https://xqzhang2015.github.io/categories/tool/</loc>
     <lastmod>2018-09-12T11:42:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
