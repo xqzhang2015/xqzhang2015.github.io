@@ -19,8 +19,7 @@
       <guid>https://xqzhang2015.github.io/post/tool/iterm_zsh/</guid>
       <description>iTerm2 + zsh Install powerline/fonts powerline/fonts: Patched fonts for Powerline users. Here we install it to support agnoster.zsh-theme.
 powerline/fonts git repo
-Install by git-clone and run install.sh
-1 2 3 4 5 6 7 8  # clone git clone https://github.com/powerline/fonts.git --depth=1 # install cd fonts ./install.sh # clean-up a bit (optional) cd .. rm -rf fonts   iTerm2 preference configuration To test if your terminal and font support agnoster.</description>
+ Install by git-clone and run install.sh  1 2 3 4 5 6 7 8  # clone git clone https://github.com/powerline/fonts.git --depth=1 # install cd fonts ./install.sh # clean-up a bit (optional) cd .. rm -rf fonts   iTerm2 preference configuration To test if your terminal and font support agnoster.</description>
     </item>
     
     <item>

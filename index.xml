@@ -51,7 +51,9 @@
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/powerline/fonts&#34;&gt;powerline/fonts git repo&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Install by git-clone and run install.sh&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install by git-clone and run install.sh&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -117,7 +119,9 @@ rm -rf fonts&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;h4 id=&#34;zsh-conf-zshrc&#34;&gt;zsh conf: .zshrc&lt;/h4&gt;
 
-&lt;p&gt;Update zsh theme in .zshrc&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Update zsh theme in .zshrc&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -140,7 +144,9 @@ rm -rf fonts&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;zsh folder structure&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;zsh folder structure&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
