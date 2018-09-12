@@ -80,8 +80,15 @@ rm -rf fonts&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://xqzhang2015.github.io/image/iterm2_preferences.png&#34; alt=&#34;This is an image in `static/image` folder.&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;To test if your terminal and font support agnoster.zsh-theme, check that all the necessary characters are supported by copying the following command to your terminal: echo &amp;ldquo;\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699&amp;rdquo;&lt;/p&gt;
-
+&lt;p&gt;To test if your terminal and font support agnoster.zsh-theme, check that all the necessary characters are supported by copying the following command to your terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;install-zsh&#34;&gt;Install zsh&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/robbyrussell/oh-my-zsh&#34;&gt;oh-my-zsh&lt;/a&gt; is a framework for managing your zsh configuration.&lt;/p&gt;
