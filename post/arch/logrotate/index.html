@@ -26,7 +26,7 @@
 
 <meta name="author" content="xqzhang2015" />
   <meta name="description" content="Overview test
-Linux system cronjob  cronjob: hourly, daily, &amp;hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &amp;#34;ALERT exited abnormally with [$EXITVALUE]&amp;#34; fi exit 0   Knowledge crontab knowledge Job format By default, nnCron uses the enhanced format." />
+Linux system cronjob  cronjob: hourly, daily, &amp;hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate calling  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &amp;#34;ALERT exited abnormally with [$EXITVALUE]&amp;#34; fi exit 0   Logrotate manual 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  NAME logrotate ‐ rotates, compresses, and mails system logs SYNOPSIS logrotate [-dv] [-f|--force] [-s|--state file] config_file ." />
 
   <meta name="keywords" content="Hugo, theme" />
 
@@ -60,18 +60,18 @@ Linux system cronjob  cronjob: hourly, daily, &amp;hellip;  1 2  [root@xxx run]#
 
 <meta property="og:title" content="The journal of linux logrotate" />
 <meta property="og:description" content="Overview test
-Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &#34;ALERT exited abnormally with [$EXITVALUE]&#34; fi exit 0   Knowledge crontab knowledge Job format By default, nnCron uses the enhanced format." />
+Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate calling  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &#34;ALERT exited abnormally with [$EXITVALUE]&#34; fi exit 0   Logrotate manual 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  NAME logrotate ‐ rotates, compresses, and mails system logs SYNOPSIS logrotate [-dv] [-f|--force] [-s|--state file] config_file ." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://xqzhang2015.github.io/post/arch/logrotate/" /><meta property="article:published_time" content="2018-09-06T11:42:31&#43;00:00"/>
 <meta property="article:modified_time" content="2018-09-07T11:42:57&#43;00:00"/>
 <meta itemprop="name" content="The journal of linux logrotate">
 <meta itemprop="description" content="Overview test
-Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &#34;ALERT exited abnormally with [$EXITVALUE]&#34; fi exit 0   Knowledge crontab knowledge Job format By default, nnCron uses the enhanced format.">
+Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate calling  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &#34;ALERT exited abnormally with [$EXITVALUE]&#34; fi exit 0   Logrotate manual 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  NAME logrotate ‐ rotates, compresses, and mails system logs SYNOPSIS logrotate [-dv] [-f|--force] [-s|--state file] config_file .">
 
 
 <meta itemprop="datePublished" content="2018-09-06T11:42:31&#43;00:00" />
 <meta itemprop="dateModified" content="2018-09-06T11:42:31&#43;00:00" />
-<meta itemprop="wordCount" content="555">
+<meta itemprop="wordCount" content="669">
 
 
 
@@ -79,7 +79,7 @@ Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The journal of linux logrotate"/>
 <meta name="twitter:description" content="Overview test
-Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &#34;ALERT exited abnormally with [$EXITVALUE]&#34; fi exit 0   Knowledge crontab knowledge Job format By default, nnCron uses the enhanced format."/>
+Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate calling  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &#34;ALERT exited abnormally with [$EXITVALUE]&#34; fi exit 0   Logrotate manual 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  NAME logrotate ‐ rotates, compresses, and mails system logs SYNOPSIS logrotate [-dv] [-f|--force] [-s|--state file] config_file ."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -381,8 +381,8 @@ Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd 
             <a href="https://xqzhang2015.github.io/categories/linux/"> linux </a>
             
           </div>
-        <span class="more-meta"> 约 555 字 </span>
-          <span class="more-meta"> 预计阅读 3 分钟 </span>
+        <span class="more-meta"> 约 669 字 </span>
+          <span class="more-meta"> 预计阅读 4 分钟 </span>
 
         
         
@@ -404,6 +404,13 @@ Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd 
 <li><a href="#overview">Overview</a>
 <ul>
 <li><a href="#linux-system-cronjob">Linux system cronjob</a></li>
+<li><a href="#logrotate-manual">Logrotate manual</a>
+<ul>
+<li>
+<ul>
+<li><a href="#logrotate-configuration-file">Logrotate configuration file</a></li>
+</ul></li>
+</ul></li>
 </ul></li>
 <li><a href="#knowledge">Knowledge</a>
 <ul>
@@ -447,7 +454,7 @@ Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd 
 </div>
 </div>
 <ul>
-<li>logrotate</li>
+<li>logrotate calling</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -477,6 +484,66 @@ Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd 
 <span class="nb">exit</span> <span class="m">0</span></pre></td></tr></table>
 </div>
 </div>
+<h3 id="logrotate-manual">Logrotate manual</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">NAME
+       logrotate ‐ rotates, compresses, and mails system logs
+
+SYNOPSIS
+       logrotate [-dv] [-f|--force] [-s|--state file] config_file ..
+
+OPTIONS
+       -d, --debug
+              Turns on debug mode and implies -v.  In debug mode, no changes will be made to the logs or to the logrotate state file.
+
+       -f, --force
+              Tells logrotate to force the rotation, even if it doesn&#39;t think this is necessary.
+
+       -m, --mail &lt;command&gt;
+       -s, --state &lt;statefile&gt;
+
+       +-v, --verbose
+              Turns on verbose mode.       </pre></td></tr></table>
+</div>
+</div>
+<h5 id="logrotate-configuration-file">Logrotate configuration file</h5>
+
+<ul>
+<li>Sample
+<code>shell
+&quot;/var/log/httpd/access.log&quot; /var/log/httpd/error.log {
+rotate 5
+mail www@my.org
+size 100k
+sharedscripts
+postrotate
+   /usr/bin/killall -HUP httpd
+endscript
+}
+</code></li>
+</ul>
+
 <h2 id="knowledge">Knowledge</h2>
 
 <h3 id="crontab-knowledge">crontab knowledge</h3>
@@ -645,6 +712,11 @@ Linux system cronjob  cronjob: hourly, daily, &hellip;  1 2  [root@xxx run]# cd 
       
       <nav class="post-nav">
         
+          <a class="prev" href="/post/tool/iterm_zsh/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">iTerm2 &#43; zsh</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
         
           <a class="next" href="/post/arch/lightty/">
             <span class="next-text nav-default">The journal of debug lightty access log not appending</span>

@@ -6,10 +6,22 @@
     <description>Recent content in Posts on To be foolish - xqzhang2015</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 06 Sep 2018 11:42:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Sep 2018 11:42:31 +0000</lastBuildDate>
     
 	<atom:link href="https://xqzhang2015.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>iTerm2 &#43; zsh</title>
+      <link>https://xqzhang2015.github.io/post/tool/iterm_zsh/</link>
+      <pubDate>Tue, 11 Sep 2018 11:42:31 +0000</pubDate>
+      
+      <guid>https://xqzhang2015.github.io/post/tool/iterm_zsh/</guid>
+      <description>iTerm2 + zsh Install powerline/fonts to support zsh/theme powerline/fonts: Patched fonts for Powerline users. Here we install it to support agnoster.zsh-theme.
+powerline/fonts git repo
+Install by git-clone and run install.sh
+  CLICK ME: [code]  1 2 3 4 5 6 7 8  # clone git clone https://github.com/powerline/fonts.git --depth=1 # install cd fonts ./install.sh # clean-up a bit (optional) cd .. rm -rf fonts    iTerm2 preference configuration To test if your terminal and font support agnoster.</description>
+    </item>
     
     <item>
       <title>The journal of linux logrotate</title>
@@ -18,7 +30,7 @@
       
       <guid>https://xqzhang2015.github.io/post/arch/logrotate/</guid>
       <description>Overview test
-Linux system cronjob  cronjob: hourly, daily, &amp;hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &amp;#34;ALERT exited abnormally with [$EXITVALUE]&amp;#34; fi exit 0   Knowledge crontab knowledge Job format By default, nnCron uses the enhanced format.</description>
+Linux system cronjob  cronjob: hourly, daily, &amp;hellip;  1 2  [root@xxx run]# cd /etc/cron cron.d/ cron.daily/ cron.deny cron.hourly/ cron.monthly/ crontab cron.weekly/    logrotate calling  1 2 3 4 5 6 7 8 9 10 11  [root@xxx cron.daily]# pwd /etc/cron.daily [root@xxx cron.daily]# cat logrotate #!/bin/sh  /usr/sbin/logrotate -s /var/lib/logrotate/logrotate.status /etc/logrotate.conf EXITVALUE=$? if [ $EXITVALUE != 0 ]; then /usr/bin/logger -t logrotate &amp;#34;ALERT exited abnormally with [$EXITVALUE]&amp;#34; fi exit 0   Logrotate manual 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  NAME logrotate ‐ rotates, compresses, and mails system logs SYNOPSIS logrotate [-dv] [-f|--force] [-s|--state file] config_file .</description>
     </item>
     
     <item>
@@ -221,16 +233,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       
       <guid>https://xqzhang2015.github.io/post/algorithm/mit_algorithm_chapter01_sort/</guid>
       <description>Sort algorithm All kinds of sort algorithms. Insertion sort CLICK ME: [code] 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 #include &amp;lt;iostream&amp;gt;#include &amp;lt;vector&amp;gt;#include &amp;lt;string&amp;gt; using namespace</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://xqzhang2015.github.io/post/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://xqzhang2015.github.io/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
     </item>
     
   </channel>
