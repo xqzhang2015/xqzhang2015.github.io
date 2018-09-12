@@ -58,7 +58,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Set solarized-dark color
-&lt;code&gt;
+&lt;code&gt;shell
 Preferences &amp;gt; Profiles &amp;gt; Colors:
 Color Presets &amp;gt; Solarized Dark
 &lt;/code&gt;&lt;/li&gt;
